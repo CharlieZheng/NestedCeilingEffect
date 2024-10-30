@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import cc.solart.nestedceilinge.app.R
 import com.tory.module_adapter.base.NormalModuleAdapter
 import com.tory.nestedceiling.app.page.NestedParentRecyclerViewActivity
 import com.tory.nestedceiling.app.page.TransparentToolbarActivity

@@ -1,6 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.tory.nestedceiling"
+
     compileSdkVersion 30
     buildToolsVersion "29.0.3"
 

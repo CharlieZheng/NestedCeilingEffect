@@ -14,8 +14,8 @@ import androidx.core.view.*
 import androidx.recyclerview.widget.NestedPublicRecyclerView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+import cc.solart.nestedceilinge.app.R
 import com.google.android.material.animation.ArgbEvaluatorCompat
-import com.tory.nestedceiling.app.R
 import com.tory.nestedceiling.app.utils.*
 import com.tory.nestedceiling.app.views.*
 import com.tory.module_adapter.base.NormalModuleAdapter

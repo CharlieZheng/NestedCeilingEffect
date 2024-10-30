@@ -26,7 +26,7 @@ class ModuleBannerView @JvmOverloads constructor(
 
     init {
         addView(banner, LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT)
-        banner.adapter = bannerAdapter
+        banner.setAdapter( bannerAdapter)
         banner.let {
             it.indicator = RectangleIndicator(banner.context)
             it.setBannerRound(20f)

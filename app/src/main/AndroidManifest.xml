@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tory.nestedceiling.app">
+   >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.tory.nestedceiling.app.page.NestedParentRecyclerViewActivity" />
-        <activity android:name=".page.TransparentToolbarActivity"
+        <activity android:name="com.tory.nestedceiling.app.page.TransparentToolbarActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
 
     </application>

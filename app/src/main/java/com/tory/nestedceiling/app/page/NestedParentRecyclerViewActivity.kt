@@ -8,7 +8,7 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.tory.nestedceiling.app.R
+import cc.solart.nestedceilinge.app.R
 import com.tory.module_adapter.base.NormalModuleAdapter
 import com.tory.module_adapter.views.ModuleEmptyModel
 import com.tory.nestedceiling.app.utils.MaterialColor

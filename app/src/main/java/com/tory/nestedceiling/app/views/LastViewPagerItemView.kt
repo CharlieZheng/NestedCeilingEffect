@@ -4,9 +4,9 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.fragment.app.*
 import androidx.viewpager.widget.ViewPager
+import cc.solart.nestedceilinge.app.R
 import com.google.android.material.tabs.TabLayout
 import com.tory.module_adapter.views.AbsModuleView
-import com.tory.nestedceiling.app.R
 import com.tory.nestedceiling.app.page.*
 import com.tory.nestedceiling.widget.NestedCeilingHelper
 import java.util.ArrayList

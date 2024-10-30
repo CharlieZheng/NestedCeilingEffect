@@ -17,10 +17,12 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.tory.nestedceiling.app.R;import com.tory.nestedceiling.app.utils.SystemProperties;
+import com.tory.nestedceiling.app.utils.SystemProperties;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+
+import cc.solart.nestedceilinge.app.R;
 
 /**
  * Created by tao.xu2 on 2017/5/22.
@@ -353,16 +355,7 @@ public class SystemBarUtils {
         return result;
     }
 
-    /**
-     * actionbar的高度
-     * @param context
-     * @return
-     */
-    public static int getActionBarHeight(Context context) {
-        TypedValue tv = new TypedValue();
-        context.getTheme().resolveAttribute(R.attr.actionBarSize, tv, true);
-        return TypedValue.complexToDimensionPixelSize(tv.data, context.getResources().getDisplayMetrics());
-    }
+
 
     public static void setRealFullUi(@NonNull Window window) {
         window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_IMMERSIVE

@@ -1,7 +1,7 @@
 package com.tory.nestedceiling.app.utils;
 
-import com.tory.nestedceiling.app.R;
 
+import cc.solart.nestedceilinge.app.R;
 
 public enum MaterialColor {
     red(R.color.md_red_500,0xFFF44336),
